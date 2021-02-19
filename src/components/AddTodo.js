@@ -1,6 +1,6 @@
-import React, {useContext, useState} from 'react'
+import React, {useState} from 'react'
 import style from './AddTodo.module.css'
-import Context from "./Context";
+
 
 const AddTodo = ({addTodos}) => {
     const [value, setValue] = useState('')
